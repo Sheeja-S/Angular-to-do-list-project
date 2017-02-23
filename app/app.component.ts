@@ -16,10 +16,10 @@ import { Task } from './task.model';
 
 export class AppComponent {
   public tasks: Task[] = [
-      new Task("Learn javascript", "high", "work"),
-      new Task("Learn TypeScript", "low", "hobbies"),
+      new Task("Do grocery shopping", "high", "work"),
+      new Task("Practise yoga", "low", "hobbies"),
       new Task("Learn Angular js", "high","work"),
-      new Task("Learn Ember js", "low","home")
+      new Task("Pay bills", "low","home")
   ];
 
 }
